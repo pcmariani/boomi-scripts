@@ -1,0 +1,84 @@
+/* @data
+   "9000","/1000/4000/9000","","BTx110","Transfer 5 vials to cell line development","","1","","6000","FS","4","20000","FS","-10","","","","","","","","","","","","","","0.1","","","0.5","","","","","","","","","","","","","","","","","","","","","","",""
+ */
+/*
+   "1000","/1000","","BTx110","Discovery Collaboration","","225","","","","","","","","","","","","","","","","","","","","0.2","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"2000","/1000/2000","","BTx110","Engage Clinical on acceleration strategy for candidate","","0","","3000","SS","","","","","","","","","","","","","","","","","0.1","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+   "3000","/1000/3000","","BTx110","[BTx date] Lead Development","","0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+   "4000","/1000/4000","","BTx110","Stage III Molecular Assessment","","225","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+   "5000","/1000/4000/5000","","BTx110","Make SSI constructs (2x SSI 2.0)- upto 4 constructs","","20","","3000","SS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+   "6000","/1000/4000/6000","","BTx110","MAT Review of Full read-out of the data from Stage-II","","0","","5000","FS","10","","","","","","","","","","","","","","","","0.2","0.2","","","0.15","","","","","","","","","","","","","","","","","","","","","","",""
+   "7000","/1000/4000/7000","","BTx110","Bioassay Transfer","","10","","6000","FS","-10","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+   "8000","/1000/4000/8000","","BTx110","Transfer bioassay critical reagents to PS","","5","","7000","FS","","","","","","","","","","","","","","","","","0.2","","","","0.03","","","","","","","","","","","","","","","","","","","","","","",""
+   "10000","/1000/4000/10000","","BTx110","TS0 Scale up expression (20L)","","15","","9000","FS","5","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+*/
+
+/* @props
+DPP_PredStartCol=8
+DPP_PredEndCol=25
+*/
+
+import java.util.Properties;
+import java.io.InputStream;
+import com.boomi.execution.ExecutionUtil;
+
+logger = ExecutionUtil.getBaseLogger()
+
+def LINE_SEPARATOR = System.getProperty("line.separator")
+
+int predStartCol = ExecutionUtil.getDynamicProcessProperty("DPP_PredStartCol") as int
+int predEndCol = ExecutionUtil.getDynamicProcessProperty("DPP_PredEndCol") as int
+
+// to be subtracted from col below so that the initial evaluation in the while loop satisfies '% 3 == 0'
+int modSubtrahend = 0
+for (m = predStartCol; m % 3 != 0; m--) {
+    modSubtrahend++
+} 
+
+for( int i = 0; i < dataContext.getDataCount(); i++ ) {
+    InputStream is = dataContext.getStream(i)
+    Properties props = dataContext.getProperties(i)
+
+    reader = new BufferedReader(new InputStreamReader(is))
+    outData = new StringBuffer()
+
+    while ((line = reader.readLine()) != null ) {
+        outData.append(line + LINE_SEPARATOR)
+
+        // split '","' delimited flat file ensuring all fields are included in split
+        line = line.replaceAll(/,""$/,",\"null\"")
+        line = line - ~/^"/ - ~/"$/   // remove initial and final "
+        def lineArr = line.split(/\"\s*,\s*\"/)   // split on ","
+        /* logger.warning(lineArr.size() + " " + lineArr) */
+
+        // construct predecessor records [predecessorTaskId, type, lag]
+        int col = predStartCol
+        def predecessorsArr = []
+        while (col >= predStartCol && col <= predEndCol) {
+            if ((col - modSubtrahend) % 3 == 0) {
+
+                def predecessorTaskId = lineArr[col]
+                def type = lineArr[col+1]
+                def lag = lineArr[col+2]
+                if (lag && (lag as int) > 0) lag = "+" + lag.replaceAll("null","")
+                
+                def predecessorGroup = predecessorTaskId + type + lag
+
+                if (predecessorGroup) {
+                    /* logger.warning(lineArr[0] +" "+ predecessorGroup) */
+                    predecessorsArr.push(predecessorGroup)
+                }
+            }
+            col++
+        }
+        if (predecessorsArr) props.setProperty("document.dynamic.userdefined.ddp_Predecessors", predecessorsArr.join(","))
+    }
+
+    if (outData) {
+        outData = outData - ~/\n$/
+        is = new ByteArrayInputStream(outData.toString().getBytes("UTF-8"))
+        dataContext.storeStream(is, props)
+    }
+}
+
+
