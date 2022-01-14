@@ -13,11 +13,8 @@ DPP_FieldNamesColIndex=3
 DPP_FieldValueColIndex=56
 
 document.dynamic.userdefined.DDP_LotNumber=LOT123
-
 document.dynamic.userdefined.DDP_UsedFieldsCsv=pH|^|pH|^|1|^|4|^|4|^|n\nCGE (non-reducing)|^|Fragments|^|2|^|16|^|10|^|n\nAppearance|^|Clarity|^|1|^|2|^|7|^|n\n
-
 document.dynamic.userdefined.DDP_GroupByValue=0.0
-
 document.dynamic.userdefined.DDP_GroupByLabel=Time(Months)
 */
 
