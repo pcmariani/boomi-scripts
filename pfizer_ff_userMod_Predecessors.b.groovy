@@ -1,5 +1,5 @@
 /* @data
-   "9000","/1000/4000/9000","","BTx110","Transfer 5 vials to cell line development","","1","","6000","FS","4","20000","FS","-10","","","","","","","","","","","","","","0.1","","","0.5","","","","","","","","","","","","","","","","","","","","","","",""
+   "9000","/1000/4000/9000","","BTx110","Transfer 5 vials to cell line development","","1","","6000","FS","270.0","20000","FS","-10","","","","","","","","","","","","","","0.1","","","0.5","","","","","","","","","","","","","","","","","","","","","","",""
  */
 /*
    "1000","/1000","","BTx110","Discovery Collaboration","","225","","","","","","","","","","","","","","","","","","","","0.2","","","","","","","","","","","","","","","","","","","","","","","","","","",""
@@ -60,7 +60,7 @@ for( int i = 0; i < dataContext.getDataCount(); i++ ) {
                 def predecessorTaskId = lineArr[col]
                 def type = lineArr[col+1]
                 def lag = lineArr[col+2]
-                if (lag && (lag as int) > 0) lag = "+" + lag.replaceAll("null","")
+                if (lag && (lag as float) > 0) lag = "+" + lag.replaceAll("null","")
                 
                 def predecessorGroup = predecessorTaskId + type + lag
 

@@ -1,5 +1,5 @@
 /* @data
-@file('../../../../Downloads/MSP Export - 25 month Complex FIXED.xlsx')
+@file('../boomi-scripts/pfizer_xlsx2csv_example.xlsx')
 */
 /* @props
 document.dynamic.userdefined.ddp_HeaderRowNum=1
