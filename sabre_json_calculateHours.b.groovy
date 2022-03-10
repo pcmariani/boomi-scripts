@@ -1,10 +1,19 @@
 /* @data
-@file('/mnt/c/Users/peter_mariani/Documents/Sabre/kronos_sched_testdata_full.json')
+@file('/mnt/c/Users/peter_mariani/Documents/Sabre/kronos_sched_testdata.json')
 */
 /* @props
     #DPP_Key=val
     #document.dynamic.userdefined.ddp_Key=val
 */
+
+/*
+ * This script breaks up the shifts into separate rows. It loops through the
+ * activities and if there is an item where paid=false, if so it starts a new row.
+ * 
+ * Input: JSON response to query on Genesys Agent Schedules
+ *
+ * Output: 3 column csv -> userId,startDate,lengthMinutes
+ */
 import java.util.Properties;
 import java.io.InputStream;
 import groovy.json.JsonSlurper
@@ -26,20 +35,30 @@ for( int i = 0; i < dataContext.getDataCount(); i++ ) {
 
     schedules.each { schedule ->
       def userId = schedule.user.id
+
       schedule.shifts.each { shift ->
         def startDate = shift.startDate
-        outData.append(userId)
         int minutes = 0
+
         shift.activities.each { activity ->
+          // get the startdate of the first item to be aggrigated on the new row
+          if (minutes == 0) {
+            startDate = activity.startDate
+          }
+          // add up the minutes until there is an activity where paid=false
           if (activity.paid != false) {
             minutes += activity.lengthMinutes
           }
-          else {
-            outData.append(",$startDate,$minutes$LINE_SEPARATOR$userId")
+          // if paid=false, create the row, unless there no minutes
+          else if(minutes > 0) {
+            outData.append("$userId,$startDate,$minutes" + LINE_SEPARATOR)
             minutes = 0
           }
         }
-        outData.append(",$startDate,$minutes$LINE_SEPARATOR")
+        // create the last row for that set of activities
+        if (minutes > 0) {
+          outData.append("$userId,$startDate,$minutes" + LINE_SEPARATOR)
+        }
       }
     }
     println outData.toString()
