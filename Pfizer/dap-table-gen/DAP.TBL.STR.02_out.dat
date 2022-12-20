@@ -1,0 +1,10 @@
+DP Date of Manufacture|^|---|^|DP Manufacturing Scale|^|DP Site of Manufacture|^|Dose Presentation|^|Drug Product Lot Number|^|---|^|Drug Product Lot Use|^|---|^|Input DS Batch Number
+2021-01-06*|^|---|^|02.23|^|Puurs|^|40|^|EN0048|^|---|^|Development, Supportive Stability|^|---|^|EN0046
+2021-02-22*|^|ZZZZZZZZ 8|^|18.13|^|Puurs|^|40|^|EW2031|^|OTHER 8|^|ICH Batch|^|Process 1|^|EN5406
+2021-03-19*|^|ZZZZZZZZ 7|^|14.87|^|Puurs|^|40|^|EY5395|^|OTHER 7|^|ICH Batch|^|Process 1|^|EP5681
+2021-04-19*|^|ZZZZZZZZ 6|^|14.62|^|Puurs|^|40|^|FA8613|^|OTHER 6|^|ICH Batch|^|Process 2|^|EW0163
+2021-07-07*|^|ZZZZZZZZ 6|^|17.10|^|RRRkk|^|40|^|FG5764|^|OTHER 6|^|ICH Batch|^|Process 3|^|EW0166
+2021-07-11*|^|ZZZZZZZZ 6|^|12*3|^|RRRkk|^|40|^|FG5765|^|OTHER 6|^|ICH Batch|^|Process 3|^|EN5406
+2021-07-11*|^|ZZZZZZZZ 6|^|12*3|^|RRRkk|^|40|^|FG5765|^|OTHER 6|^|ICH Batch|^|Process 3|^|EP5681
+2021-07-14*|^|ZZZZZZZZ 0|^|21.55|^|RRRkk|^|40|^|FG5766|^|OTHER 0|^|ICH Batch|^|Process 4|^|EP5681
+2021-07-14*|^|ZZZZZZZZ 0|^|21.55|^|RRRkk|^|40|^|FG5766|^|OTHER 0|^|ICH Batch|^|Process 4|^|EW0163

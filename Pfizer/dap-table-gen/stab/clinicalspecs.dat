@@ -1,0 +1,27 @@
+AEX-HPLC|^|Anti-CD3 mAb|^|<= 3.0% anti CD3 parent mAb|^|%
+Appearance|^|Clarity|^|<= 18 NTU|^|NTU
+Appearance|^|Coloration|^|Not more intensely colored than level 5 of the color standard|^|null
+Appearance|^|Visible Particulates|^|Essentially free from visible particulates|^|null
+Biological Activity (Binding ELISA)|^|Relative Potency|^|50 - 150% potency relative to reference material|^|%
+CEX-HPLC|^|Anti-BCMA mAb|^|<= 3.0% anti BCMA parent mAb|^|%
+CEX-HPLC|^|Anti-BCMA/Anti-CD3 Bispecific Clip|^|<= 5.0% Bispecific mAb Clip|^|%
+CGE (non-reducing)|^|Fragments|^|<= 10.0% fragments|^|%
+CGE (non-reducing)|^|Intact IgG|^|>= 90.0% IgG|^|%
+CGE (non-reducing)|^|Other|^|Report Results|^|%
+CGE (reducing)|^|Fragments|^|null|^|%
+CGE (reducing)|^|Heavy Chain + Light Chain|^|null|^|%
+CGE (reducing)|^|Other|^|null|^|%
+Endotoxin|^|Endotoxin|^|<= 4.3 EU/mg|^|EU/mg
+Osmolarity|^|Osmolarity|^|Report Results|^|mOsm/kg
+Peptide Mapping|^|Identity (Peptide Profile)|^|Comparable to Reference|^|null
+SE-HPLC|^|HMMS|^|<= 5.0% HMMS|^|%
+SE-HPLC|^|Monomer|^|>= 90.0% monomer|^|%
+Sterility|^|Sterility|^|No growth detected|^|null
+Subvisible Particles|^|Subvisible Particles|^|Meets compendial requirements|^|null
+Subvisible Particles|^|Subvisible Particles >= 10µm|^|Report Results|^|Particles/container
+Subvisible Particles|^|Subvisible Particles >= 25µm|^|Report Results|^|Particles/container
+UV Spectroscopy|^|Protein Concentration|^|10.0 +/- 1.0 mg/mL|^|mg/mL
+iCE|^|Acidic Species|^|Report Results|^|%
+iCE|^|Basic Species|^|Report Results|^|%
+iCE|^|Main Species|^|Report Results|^|%
+pH|^|pH|^|5.8 +/- 0.5|^|null

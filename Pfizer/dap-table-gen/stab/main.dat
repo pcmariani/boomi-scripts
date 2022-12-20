@@ -1,0 +1,90 @@
+0.0|^|AEX-HPLC|^|Anti-CD3 mAb|^|NMT 0.1|^|%
+0.0|^|Appearance|^|Clarity|^|4|^|NTU
+0.0|^|Appearance|^|Coloration|^|<=B9|^|null
+0.0|^|Appearance|^|Visible Particulates|^|Essentially free from visible particulates|^|null
+0.0|^|Biological Activity (Binding ELISA)|^|Relative Potency|^|104|^|%
+0.0|^|CEX-HPLC|^|Anti-BCMA mAb|^|0.2|^|%
+0.0|^|CEX-HPLC|^|Anti-BCMA/Anti-CD3 Bispecific Clip|^|NMT 0.4|^|%
+0.0|^|CGE (non-reducing)|^|Fragments|^|0.4|^|%
+0.0|^|CGE (non-reducing)|^|Intact IgG|^|99.6|^|%
+0.0|^|CGE (non-reducing)|^|Other|^|NMT 0.3|^|%
+0.0|^|CGE (reducing)|^|Fragments|^|0.7|^|%
+0.0|^|CGE (reducing)|^|Heavy Chain + Light Chain|^|99.3|^|%
+0.0|^|CGE (reducing)|^|Other|^|NMT 0.3|^|%
+0.0|^|Endotoxin|^|Endotoxin|^|NMT 0.1|^|EU/mg
+0.0|^|Osmolarity|^|Osmolarity|^|315|^|mOsm/kg
+0.0|^|Peptide Mapping|^|Identity (Peptide Profile)|^|Comparable to Reference|^|null
+0.0|^|SE-HPLC|^|HMMS|^|NMT 0.2|^|%
+0.0|^|SE-HPLC|^|Monomer|^|99.8|^|%
+0.0|^|Sterility|^|Sterility|^|No growth detected|^|null
+0.0|^|Subvisible Particles|^|Subvisible Particles|^|Meets compendial requirements|^|null
+0.0|^|Subvisible Particles|^|Subvisible Particles >= 10µm|^|15|^|Particles/container
+0.0|^|Subvisible Particles|^|Subvisible Particles >= 25µm|^|<1|^|Particles/container
+0.0|^|UV Spectroscopy|^|Protein Concentration|^|10.4|^|mg/mL
+0.0|^|iCE|^|Acidic Species|^|39.8|^|%
+0.0|^|iCE|^|Basic Species|^|14.6|^|%
+0.0|^|iCE|^|Main Species|^|45.6|^|%
+0.0|^|pH|^|pH|^|5.9|^|-
+1.0|^|AEX-HPLC|^|Anti-CD3 mAb|^|0.1|^|%
+1.0|^|Appearance|^|Clarity|^|4|^|NTU
+1.0|^|Appearance|^|Coloration|^|<=B8|^|null
+1.0|^|Appearance|^|Visible Particulates|^|Essentially free from visible particulates|^|null
+1.0|^|Biological Activity (Binding ELISA)|^|Relative Potency|^|96|^|%
+1.0|^|CEX-HPLC|^|Anti-BCMA mAb|^|NMT 0.1|^|%
+1.0|^|CEX-HPLC|^|Anti-BCMA/Anti-CD3 Bispecific Clip|^|0.5|^|%
+1.0|^|CGE (non-reducing)|^|Fragments|^|0.4|^|%
+1.0|^|CGE (non-reducing)|^|Intact IgG|^|99.6|^|%
+1.0|^|CGE (non-reducing)|^|Other|^|NMT 0.3|^|%
+1.0|^|CGE (reducing)|^|Fragments|^|1.0|^|%
+1.0|^|CGE (reducing)|^|Heavy Chain + Light Chain|^|99.0|^|%
+1.0|^|CGE (reducing)|^|Other|^|NMT 0.3|^|%
+1.0|^|SE-HPLC|^|HMMS|^|NMT 0.2|^|%
+1.0|^|SE-HPLC|^|Monomer|^|99.9|^|%
+1.0|^|UV Spectroscopy|^|Protein Concentration|^|10.7|^|mg/mL
+1.0|^|iCE|^|Acidic Species|^|39.5|^|%
+1.0|^|iCE|^|Basic Species|^|14.2|^|%
+1.0|^|iCE|^|Main Species|^|46.2|^|%
+1.0|^|pH|^|pH|^|5.8|^|null
+3.0|^|AEX-HPLC|^|Anti-CD3 mAb|^|0.3|^|%
+3.0|^|Appearance|^|Clarity|^|5|^|NTU
+3.0|^|Appearance|^|Coloration|^|<=B9|^|null
+3.0|^|Appearance|^|Visible Particulates|^|Essentially free from visible particulates|^|null
+3.0|^|Biological Activity (Binding ELISA)|^|Relative Potency|^|94|^|%
+3.0|^|CEX-HPLC|^|Anti-BCMA mAb|^|NMT 0.1|^|%
+3.0|^|CEX-HPLC|^|Anti-BCMA/Anti-CD3 Bispecific Clip|^|0.6|^|%
+3.0|^|CGE (non-reducing)|^|Fragments|^|1.3|^|%
+3.0|^|CGE (non-reducing)|^|Intact IgG|^|98.7|^|%
+3.0|^|CGE (non-reducing)|^|Other|^|NMT 0.3|^|%
+3.0|^|CGE (reducing)|^|Fragments|^|0.9|^|%
+3.0|^|CGE (reducing)|^|Heavy Chain + Light Chain|^|99.1|^|%
+3.0|^|CGE (reducing)|^|Other|^|NMT 0.3|^|%
+3.0|^|SE-HPLC|^|HMMS|^|NMT 0.2|^|%
+3.0|^|SE-HPLC|^|Monomer|^|99.8|^|%
+3.0|^|UV Spectroscopy|^|Protein Concentration|^|10.4|^|mg/mL
+3.0|^|iCE|^|Acidic Species|^|38.7|^|%
+3.0|^|iCE|^|Basic Species|^|14.9|^|%
+3.0|^|iCE|^|Main Species|^|46.3|^|%
+3.0|^|pH|^|pH|^|5.8|^|null
+6.0|^|AEX-HPLC|^|Anti-CD3 mAb|^|NMT 0.1|^|%
+6.0|^|Appearance|^|Clarity|^|4|^|NTU
+6.0|^|Appearance|^|Coloration|^|<=B7|^|null
+6.0|^|Appearance|^|Visible Particulates|^|Essentially free from visible particulates|^|-
+6.0|^|Biological Activity (Binding ELISA)|^|Relative Potency|^|98|^|%
+6.0|^|CEX-HPLC|^|Anti-BCMA mAb|^|0.1|^|%
+6.0|^|CEX-HPLC|^|Anti-BCMA/Anti-CD3 Bispecific Clip|^|0.9|^|%
+6.0|^|CGE (non-reducing)|^|Fragments|^|2.6|^|%
+6.0|^|CGE (non-reducing)|^|Intact IgG|^|97.4|^|%
+6.0|^|CGE (non-reducing)|^|Other|^|NMT 0.3|^|%
+6.0|^|CGE (reducing)|^|Fragments|^|1.7|^|%
+6.0|^|CGE (reducing)|^|Heavy Chain + Light Chain|^|98.3|^|%
+6.0|^|CGE (reducing)|^|Other|^|NMT 0.3|^|%
+6.0|^|SE-HPLC|^|HMMS|^|NMT 0.2|^|%
+6.0|^|SE-HPLC|^|Monomer|^|99.7|^|%
+6.0|^|Subvisible Particles|^|Subvisible Particles|^|Meets compendial requirements|^|null
+6.0|^|Subvisible Particles|^|Subvisible Particles >= 10µm|^|1|^|Particles/container
+6.0|^|Subvisible Particles|^|Subvisible Particles >= 25µm|^|0|^|Particles/container
+6.0|^|UV Spectroscopy|^|Protein Concentration|^|10.4|^|mg/mL
+6.0|^|iCE|^|Acidic Species|^|43.0|^|%
+6.0|^|iCE|^|Basic Species|^|14.1|^|%
+6.0|^|iCE|^|Main Species|^|43.0|^|%
+6.0|^|pH|^|pH|^|5.8|^|null

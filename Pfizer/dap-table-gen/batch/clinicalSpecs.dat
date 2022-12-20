@@ -1,0 +1,41 @@
+Appearance (Clarity): Ph. Eur. 2.2.1, JP 2.61|^|Appearance (Clarity)|^|<= 30 NTU
+Appearance (Coloration): Ph. Eur. 2.2.2, JP 2.65|^|Appearance (Coloration)|^|Not more intensely colored than level 3 of the brown color standard
+Appearance (Coloration): Ph. Eur. 2.2.2, JP 2.65|^|Appearance (Coloration)|^|Not more intensely colored than level 3 of the color standard
+Appearance (Visible Particulates): USP <790>, Ph. Eur. 2.9.20, and JP 6.06|^|Appearance (Visible Particulates)|^|Essentially free from visible particulates
+Appearance (Visible Particulates): USP <790>, Ph. Eur. 2.9.20, and JP 6.06|^|Appearance (Visible Particulates)|^|Report Results
+Bioburden|^|Bioburden|^|<= 1 CFU/10mL
+Bioburden: USP <61>, Ph. Eur. 2.6.12, JP 4.05|^|Bioburden|^|<= 1 CFU/10mL
+CGE (Non-reducing)|^|Intact IgG|^|>= 90.0% IgG
+CGE (Reducing)|^|Fragments|^|<= 10.0% Fragments
+CGE (Reducing)|^|Fragments|^|Report Results
+CGE (Reducing)|^|Heavy Chain and Light Chain|^|>= 90.0% IgG as heavy + light chain
+CGE (Reducing)|^|Heavy Chain and Light Chain|^|>= 90.0% IgG as heavy chain + light chain
+Container Content for Injections: USP <697>, Ph. Eur. 2.9.17, and JP 6.05|^|Container Content for Injections|^|Not less than labeled volume
+Endotoxin: USP <85>, Ph. Eur. 2.6.14, and  JP 4.01|^|Endotoxin|^|<= 0.075 EU/mg
+Endotoxin: USP <85>, Ph. Eur. 2.6.14, and  JP 4.01|^|Endotoxin|^|<= 0.125 EU/mg
+HCP ELISA|^|Host Cell Protein|^|<= 100 ng/mg
+Inhibition Assay|^|Potency / Biological Activity|^|50 - 150% potency relative to reference material
+Inhibition Assay|^|TFPI_BIOASSAY_ELISA_Specific Activity_U/mg|^|500 - 1500 U/mg
+Lys-C Digest|^|Methionine Oxidation|^|Report Results (%)
+N-linked Oligosaccharide Profile|^|N-Linked Glycan Profile|^|Comparable to Reference
+Osmolality: USP <785>, Ph. Eur. 2.2.35, and JP 2.47|^|Osmolality|^|Report Results
+Osmolality: USP <785>, Ph. Eur. 2.2.35, and JP 2.47|^|Osmolality|^|Report Results (mOsm/kg)
+Peptide Map|^|Peptide Profile|^|Comparable to Reference
+Polysorbate 80|^|Polsorbate 80|^|Report Results (mg/mL)
+SE-HPLC|^|HMMS|^|<= 5.0%
+SE-HPLC|^|HMMS|^|<= 5.0% HMMS
+SE-HPLC|^|Monomer|^|>= 90.0%
+SE-HPLC|^|Monomer|^|>= 90.0% monomer
+Sterility: USP <71>, Ph. Eur. 2.6.1, and  JP 4.06|^|Sterility|^|No growth detected
+Subvisible Particles|^|TFPI_PARTICULATE_MATTER_USP788_Particulate Matter_|^|Meets compendial requirements
+Subvisible Particles: USP <788>, Ph. Eur. 2.9.19, and JP 6.07|^|Subvisible Particles >= 10 µm|^|Report Results
+Subvisible Particles: USP <788>, Ph. Eur. 2.9.19, and JP 6.07|^|Subvisible Particles >= 25 µm|^|Report Results
+UV Spectroscopy|^|Protein Concentration|^|144.0 - 180.0 mg/mL
+UV Spectroscopy|^|Protein Concentration|^|150.0 +/- 15.0 mg/mL
+iCE|^|Acidic Species|^|Report Results (%)
+iCE|^|Basic Species|^|Report Results (%)
+iCE|^|Charge Heterogeneity|^|Comparable to Reference Material
+iCE|^|Main Species|^|Report Results (%)
+pH: USP <791>, Ph. Eur. 2.2.3, JP 2.54|^|pH|^|5.8 +/- 0.5
+qPCR DNA Analysis|^|Host Cell DNA|^|<= 5.0 pg/mg
+rProtein A ELISA|^|Protein A|^|<= 10.0 ng/mg
