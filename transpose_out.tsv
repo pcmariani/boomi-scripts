@@ -1,0 +1,10 @@
+pfizer_ff_Transpose.b.groovy
+Analytical Procedure	Quality Attribute	Clinical Acceptance Criteria	Lot Number	Lot Number
+Analytical Procedure	Quality Attribute	Clinical Acceptance Criteria	18-000391	18L150K101
+Analytical Procedure	Quality Attribute	Clinical Acceptance Criteria	Results	Results
+iCE	Basic Species	Report Results (%) (Report Results (%))	5.0	7.8
+iCE	Main Species	Report Results (%) (Report Results (%))	73.1	70.8
+Test First Key	Test Second Key	NR	NR	NR
+Appearance	Visible Particulates	Report Results (Report Results)	Essentially free from visible particulates	Essentially free from visible particulates
+SE-HPLC	HMMS	<= 5.0% HMMS (<= 5.0% HMMS)	0.6	0.5
+

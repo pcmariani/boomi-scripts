@@ -1,9 +1,9 @@
 /* @data
 */
 /* @props
-    #DPP_Key=val
-    #document.dynamic.userdefined.ddp_Filename=Complex Protein_20220102-0203-#[13-12-1].xlsx
-    document.dynamic.userdefined.ddp_Filename=Complex Protein_20220102-0203.xlsx
+#DPP_Key=val
+document.dynamic.userdefined.ddp_Filename=Complex Protein_20220102-0203-#13-12-1.xlsx
+#document.dynamic.userdefined.ddp_Filename=Complex Protein_20220102-0203.xlsx
 */
 import java.util.Properties;
 import java.io.InputStream;
@@ -16,7 +16,7 @@ for( int i = 0; i < dataContext.getDataCount(); i++ ) {
     Properties props = dataContext.getProperties(i)
 
     def filename = props.getProperty("document.dynamic.userdefined.ddp_Filename")
-      def rawMatch = (filename =~ /#\[(\d+)-(\d+)-(\d+)\]/)
+      def rawMatch = (filename =~ /#\[?(\d+)-(\d+)-(\d+)\]?/)
       if (rawMatch) {
         matches = rawMatch[0]
         props.setProperty("document.dynamic.userdefined.ddp_ModalityId", matches[1])
@@ -27,7 +27,7 @@ for( int i = 0; i < dataContext.getDataCount(); i++ ) {
         logger.warning("ddp_ModalityTemplateVerNo: " + matches[3])
       }
       else {
-        logger.severe("Filename does not contain metadata string")
+        logger.severe("Filename does not contain metadata string or it is malformed. The correct form is #0-0-0")
       }
 
     dataContext.storeStream(is, props)
