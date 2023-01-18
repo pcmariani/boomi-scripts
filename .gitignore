@@ -1,9 +1,7 @@
 BoomiTestBed/
 *.vim
-*.xml
-*.json
 *.csv
 *.htm
 *.session
 *.mkd
-
+*.dat
