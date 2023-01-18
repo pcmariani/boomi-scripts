@@ -1,0 +1,121 @@
+{
+  "queryId": "DP_BATCHANALYSIS",
+  "tables": [
+    {
+      "sources": [
+        {
+          "type": "sql",
+          "id": "main",
+          "sqlParams": "TFPI; 17-001163"
+        },
+        {
+          "type": "sql",
+          "id": "clinicalSpecs",
+          "sqlParams": "TFPI; 17-001163"
+        }
+      ]
+    },
+    {
+      "sources": [
+        {
+          "type": "sql",
+          "id": "main",
+          "sqlParams": "TFPI; 18-000391, 18L150K101"
+        },
+        {
+          "type": "sql",
+          "id": "clinicalSpecs",
+          "sqlParams": "TFPI; 18-000391, 18L150K101"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "list",
+      "id": "filteredPivotColumnNames",
+      "items": [
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "keys": [
+            {
+              "seq": 1,
+              "name": "iCE",
+              "label": "iCE"
+            },
+            {
+              "seq": 2,
+              "name": "Basic Species",
+              "label": "Basic Species"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "keys": [
+            {
+              "seq": 1,
+              "name": "iCE",
+              "label": "iCE"
+            },
+            {
+              "seq": 2,
+              "name": "Main Species",
+              "label": "Main Species"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "keys": [
+            {
+              "seq": 1,
+              "name": "Test First Key",
+              "label": "Test First Key"
+            },
+            {
+              "seq": 2,
+              "name": "Test Second Key",
+              "label": "Test Second Key"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "keys": [
+            {
+              "seq": 1,
+              "name": "Appearance (Visible Particulates): USP <790>, Ph. Eur. 2.9.20, and JP 6.06",
+              "label": "Appearance"
+            },
+            {
+              "seq": 2,
+              "name": "Appearance (Visible Particulates)",
+              "label": "Visible Particulates"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "keys": [
+            {
+              "seq": 1,
+              "name": "SE-HPLC",
+              "label": "SE-HPLC"
+            },
+            {
+              "seq": 2,
+              "name": "HMMS",
+              "label": "HMMS"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

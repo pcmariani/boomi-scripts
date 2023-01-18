@@ -1,0 +1,160 @@
+{
+  "queryId": "DP_STABILITY_STANDARD",
+  "tableStructureType": "pivot",
+  "pivotTopLeftCorner": "header-row-labels|groupBy-column-labels",
+  "tableTitle": {
+    "titleText": "<Test> : <TableNameVar> test This is the title <ProductName> <BatchNumber> <StabStorageCondition> <StabStorageOrientation>",
+    "replacements": [
+      {
+        "placeholderName": "StabStorageCondition",
+        "searchFor": "C",
+        "replaceWith": "°C"
+      },
+      {
+        "placeholderName": "StabStorageCondition",
+        "searchFor": "-",
+        "replaceWith": "minus"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "sql",
+      "id": "main",
+      "description": "Main Select for Stability Data",
+      "sqlStatement": "SELECT \"Protocol Months On Stability\", \"Assay Name\", \"Parameter Field Name\", \"Text Parameter Value\", \"Parameter Units\"\r\nFROM MIPRANS_OWNER.DELL_STABILITY_DATA_DP\r\nWHERE \"Product Name\" = ? AND \"Batch Number\" = ? AND \"Stab Storage Condition\" = ? AND \"Stab Storage Orientation\" = ?\r\nGROUP BY \"Protocol Days On Stability\", \"Protocol Months On Stability\", \"Assay Name\", \"Parameter Field Name\", \"Text Parameter Value\", \"Parameter Units\"\r\nORDER BY \"Protocol Days On Stability\""
+    },
+    {
+      "type": "sql",
+      "id": "clinicalSpecs",
+      "description": "Select for Clinical Acceptance Criteria",
+      "sqlStatement": "SELECT DISTINCT \"Assay Name\", \"Parameter Field Name\", \"Spec Description\", \"Spec Units\"\r\nFROM MIPRANS_OWNER.DELL_STABILITY_DATA_DP\r\nWHERE \"Product Name\" = ? AND \"Batch Number\" = ? AND \"Stab Storage Condition\" = ? AND \"Stab Storage Orientation\" = ?\r\nGROUP BY \"Assay Name\", \"Parameter Field Name\", \"Spec Description\", \"Spec Units\"\r\nORDER BY \"Assay Name\", \"Parameter Field Name\""
+    },
+    {
+      "type": "sql",
+      "id": "pivotColumnNames",
+      "description": "Select for List of AssayParameter field keys",
+      "sqlStatement": "SELECT DISTINCT \"Assay Name\", \"Parameter Field Name\" \r\nFROM MIPRANS_OWNER.DELL_STABILITY_DATA_DP\r\nWHERE \"Product Name\" = ? AND \"Batch Number\" = ? AND \"Stab Storage Condition\" = ? AND \"Stab Storage Orientation\" = ?\r\nORDER BY \"Assay Name\", \"Parameter Field Name\""
+    },
+    {
+      "type": "list",
+      "id": "filteredPivotColumnNames",
+      "description": "Author is provided list from query, then specifies attributes per item",
+      "source": {
+        "type": "sql",
+        "id": "pivotColumnNames",
+        "field": "-all-"
+      },
+      "attributes": [
+        {
+          "name": "suppressIfNoData",
+          "type": "boolean"
+        },
+        {
+          "name": "subTableIndex",
+          "type": "int"
+        },
+        {
+          "name": "columnWidth",
+          "type": "int"
+        }
+      ]
+    }
+  ],
+  "rowSets": [
+    {
+      "active": true,
+      "location": "header",
+      "rowType": "pivot-column-names",
+      "source": {
+        "type": "list",
+        "id": "filteredPivotColumnNames",
+        "field": "Assay Name",
+        "index": 0
+      },
+      "groupBy": [
+        {
+          "type": "text",
+          "value": "Time (Days)",
+          "columnWidth": 14
+        }
+      ],
+      "appendToValue": []
+    },
+    {
+      "active": true,
+      "location": "header",
+      "rowType": "pivot-column-names",
+      "source": {
+        "type": "list",
+        "id": "filteredPivotColumnNames",
+        "field": "Parameter Field Name",
+        "index": 1
+      },
+      "groupBy": [
+        {
+          "type": "text",
+          "value": "Time (Days)",
+          "columnWidth": 14
+        }
+      ],
+      "appendToValue": [
+        {
+          "type": "text",
+          "value": "("
+        },
+        {
+          "type": "sql",
+          "id": "main",
+          "field": "Parameter Units"
+        },
+        {
+          "type": "text",
+          "value": ")"
+        }
+      ],
+      "appendToValueNullChars": [
+        "-"
+      ]
+    },
+    {
+      "active": true,
+      "location": "header",
+      "rowType": "pivot-data",
+      "source": {
+        "type": "sql",
+        "id": "clinicalSpecs",
+        "field": "Spec Description"
+      },
+      "columnFilter": {
+        "type": "list",
+        "id": "filteredPivotColumnNames"
+      },
+      "groupByColumnLabel": "Clinical Acceptance Criteria",
+      "groupBy": []
+    },
+    {
+      "active": true,
+      "location": "body",
+      "rowType": "pivot-data",
+      "source": {
+        "type": "sql",
+        "id": "main",
+        "field": "Text Parameter Value"
+      },
+      "stringReplacements": [ ],
+      "columnFilter": {
+        "type": "list",
+        "id": "filteredPivotColumnNames"
+      },
+      "groupByColumnLabel": null,
+      "appendToValue": [],
+      "groupBy": [
+        {
+          "type": "sql",
+          "field": "Protocol Months On Stability"
+        }
+      ]
+    }
+  ]
+}

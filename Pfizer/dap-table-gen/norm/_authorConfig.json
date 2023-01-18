@@ -1,0 +1,114 @@
+{
+  "queryId": "DP_STABILITY_STANDARD_SUMMARY",
+  "params": {
+    "type": "summary",
+    "queryId": "DP_STABILITY_STANDARD_2"
+  },
+  "tables": [
+    {
+      "sources": [
+        {
+          "type": "sql",
+          "id": "main",
+          "sqlParams": "BCMA",
+          "virtualColumns": [
+            {
+              "name": "Process",
+              "rowKeyColumnName": "Drug Product Lot Number",
+              "insertAfterColumnName": "Drug Product Lot Use",
+              "data": [
+                {
+                  "rowKey": "EW2031",
+                  "value": "Process 1"
+                },
+                {
+                  "rowKey": "EY5395",
+                  "value": "Process 1"
+                },
+                {
+                  "rowKey": "FA8613",
+                  "value": "Process 2"
+                },
+                {
+                  "rowKey": "FG5764",
+                  "value": "Process 3"
+                },
+                {
+                  "rowKey": "FG5765",
+                  "value": "Process 3"
+                },
+                {
+                  "rowKey": "FG5766",
+                  "value": "Process 4"
+                }
+              ]
+            },
+            {
+              "name": "OTHER",
+              "rowKeyColumnName": "Drug Product Lot Number",
+              "insertAfterColumnName": "Drug Product Lot Number",
+              "data": [
+                {
+                  "rowKey": "EW2031",
+                  "value": "OTHER 8"
+                },
+                {
+                  "rowKey": "EY5395",
+                  "value": "OTHER 7"
+                },
+                {
+                  "rowKey": "FA8613",
+                  "value": "OTHER 6"
+                },
+                {
+                  "rowKey": "FG5764",
+                  "value": "OTHER 6"
+                },
+                {
+                  "rowKey": "FG5765",
+                  "value": "OTHER 6"
+                },
+                {
+                  "rowKey": "FG5766",
+                  "value": "OTHER 0"
+                }
+              ]
+            },
+            {
+              "name": "zzzzzzzzzzzzzzzzzz",
+              "rowKeyColumnName": "Drug Product Lot Number",
+              "insertAfterColumnName": "DP Date of Manufacture",
+              "data": [
+                {
+                  "rowKey": "EW2031",
+                  "value": "ZZZZZZZZ 8"
+                },
+                {
+                  "rowKey": "EY5395",
+                  "value": "ZZZZZZZZ 7"
+                },
+                {
+                  "rowKey": "FA8613",
+                  "value": "ZZZZZZZZ 6"
+                },
+                {
+                  "rowKey": "FG5764",
+                  "value": "ZZZZZZZZ 6"
+                },
+                {
+                  "rowKey": "FG5765",
+                  "value": "ZZZZZZZZ 6"
+                },
+                {
+                  "rowKey": "FG5766",
+                  "value": "ZZZZZZZZ 0"
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}

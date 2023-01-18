@@ -1,0 +1,457 @@
+{
+  "queryId": "DP_STABILITY_STANDARD",
+  "tables": [
+    {
+      "sources": [
+        {
+          "type": "sql",
+          "id": "main",
+          "sqlParams": "BCMA; 18-001678; -20C; INVERTED"
+        },
+        {
+          "type": "sql",
+          "id": "clinicalSpecs",
+          "sqlParams": "BCMA; 18-001678; -20C; INVERTED"
+        }
+      ]
+    },
+    {
+      "sources": [
+        {
+          "type": "sql",
+          "id": "main",
+          "sqlParams": "BCMA; 18-001678; 25C_60RH; INVERTED"
+        },
+        {
+          "type": "sql",
+          "id": "clinicalSpecs",
+          "sqlParams": "BCMA; 18-001678; 25C_60RH; INVERTED"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "list",
+      "id": "filteredPivotColumnNames",
+      "items": [
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 10,
+          "keys": [
+            {
+              "name": "Appearance",
+              "label": "Appearance"
+            },
+            {
+              "name": "Visible Particulates",
+              "label": "Visible Particulates"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 10,
+          "keys": [
+            {
+              "name": "Appearance",
+              "label": "Appearance"
+            },
+            {
+              "name": "Clarity",
+              "label": "Clarity"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 10,
+          "keys": [
+            {
+              "name": "Appearance",
+              "label": "Appearance"
+            },
+            {
+              "name": "Coloration",
+              "label": "Coloration"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 6,
+          "keys": [
+            {
+              "name": "pH",
+              "label": "-none-"
+            },
+            {
+              "name": "pH",
+              "label": "pH"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 10,
+          "keys": [
+            {
+              "name": "Subvisible Particles",
+              "label": "-none-"
+            },
+            {
+              "name": "Subvisible Particles >= 10µm",
+              "label": "Subvisible Particles >= 10µm"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 10,
+          "keys": [
+            {
+              "name": "Subvisible Particles",
+              "label": "-none-"
+            },
+            {
+              "name": "Subvisible Particles >= 25µm",
+              "label": "Subvisible Particles >= 25µm"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 16,
+          "keys": [
+            {
+              "name": "UV Spectroscopy",
+              "label": "UV Spectroscopy"
+            },
+            {
+              "name": "Protein Concentration",
+              "label": "Concentration"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 7,
+          "keys": [
+            {
+              "name": "PS80",
+              "label": "-none-"
+            },
+            {
+              "name": "Polysorbate 80 Concentration",
+              "label": "PS80"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 10,
+          "keys": [
+            {
+              "name": "Cell-based Bioassay",
+              "label": "Cell-based Bioassay"
+            },
+            {
+              "name": "Relative Potency",
+              "label": "Relative Potency"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 10,
+          "keys": [
+            {
+              "name": "Biological Activity (Binding ELISA)",
+              "label": "Binding ELISA"
+            },
+            {
+              "name": "Relative Potency",
+              "label": "Relative Potency"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 8,
+          "keys": [
+            {
+              "name": "iCE",
+              "label": "iCE"
+            },
+            {
+              "name": "Acidic Species",
+              "label": "Acidic Species"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 8,
+          "keys": [
+            {
+              "name": "iCE",
+              "label": "iCE"
+            },
+            {
+              "name": "Main Species",
+              "label": "Main Species"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 1,
+          "columnWidth": 8,
+          "keys": [
+            {
+              "name": "iCE",
+              "label": "iCE"
+            },
+            {
+              "name": "Basic Species",
+              "label": "Basic Species"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 2,
+          "columnWidth": 9,
+          "keys": [
+            {
+              "name": "SE-HPLC",
+              "label": "SE-HPLC"
+            },
+            {
+              "name": "Monomer",
+              "label": "Monomer"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 2,
+          "columnWidth": 9,
+          "keys": [
+            {
+              "name": "SE-HPLC",
+              "label": "SE-HPLC"
+            },
+            {
+              "name": "HMMS",
+              "label": "HMMS"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 2,
+          "columnWidth": 9,
+          "keys": [
+            {
+              "name": "CGE (reducing)",
+              "label": "CGE (reducing)"
+            },
+            {
+              "name": "Heavy Chain + Light Chain",
+              "label": "HC + LC"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 2,
+          "columnWidth": 10,
+          "keys": [
+            {
+              "name": "CGE (reducing)",
+              "label": "CGE (reducing)"
+            },
+            {
+              "name": "Fragments",
+              "label": "Fragments"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 2,
+          "columnWidth": 8,
+          "keys": [
+            {
+              "name": "CGE (non-reducing)",
+              "label": "CGE (non-reducing)"
+            },
+            {
+              "name": "Intact IgG",
+              "label": "Intact IgG"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 2,
+          "columnWidth": 10,
+          "keys": [
+            {
+              "name": "CGE (non-reducing)",
+              "label": "CGE (non-reducing)"
+            },
+            {
+              "name": "Fragments",
+              "label": "Fragments"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 2,
+          "columnWidth": 9,
+          "keys": [
+            {
+              "name": "AEX-HPLC",
+              "label": "AEX-HPLC"
+            },
+            {
+              "name": "Anti-CD3 mAb",
+              "label": "Anti-CD3 mAb"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 2,
+          "columnWidth": 8,
+          "keys": [
+            {
+              "name": "CEX-HPLC",
+              "label": "CEX-HPLC"
+            },
+            {
+              "name": "Anti-BCMA mAb",
+              "label": "Anti-BCMA mAb"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 2,
+          "columnWidth": 10,
+          "keys": [
+            {
+              "name": "CEX-HPLC",
+              "label": "CEX-HPLC"
+            },
+            {
+              "name": "Anti-BCMA/Anti-CD3 Bispecific Clip",
+              "label": "Anti-BCMA/anti-CD3 Bispecific Clip"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 3,
+          "columnWidth": 10,
+          "keys": [
+            {
+              "name": "Endotoxin",
+              "label": "-none-"
+            },
+            {
+              "name": "Endotoxin",
+              "label": "Endotoxin"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 3,
+          "columnWidth": 8,
+          "keys": [
+            {
+              "name": "Sterility",
+              "label": "-none-"
+            },
+            {
+              "name": "Sterility",
+              "label": "Sterility"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 3,
+          "columnWidth": 9,
+          "keys": [
+            {
+              "name": "Container Closure Integrity",
+              "label": "CCIT"
+            },
+            {
+              "name": "Dye Ingress",
+              "label": "Dye Ingress"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "suppressIfNoData": true,
+          "subTableIndex": 3,
+          "columnWidth": 12,
+          "keys": [
+            {
+              "name": "Methionine Oxidation",
+              "label": "-none-"
+            },
+            {
+              "name": "Methionine Oxidation",
+              "label": "Methionine Oxidation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

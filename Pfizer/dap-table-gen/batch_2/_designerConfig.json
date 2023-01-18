@@ -1,0 +1,183 @@
+{
+  "queryId": "DP_BATCHANALYSIS",
+  "tableStructureType": "pivot-transposed",
+  "sources": [
+    {
+      "type": "sql",
+      "id": "main",
+      "description": "Main Select for Batch Analysis Data",
+      "sqlStatement": "SELECT \"Batch Number\", \"Material Number\", \"Acceptance Criteria\", \"Analytical Procedure\", \"Quality Attribute\", \"Text Parameter Value\"\r\nFROM MIPRANS_OWNER.DELL_CQA_BA\r\nWHERE \"Product\" = ? AND \"Batch Number\" IN (?)\r\nORDER BY \"Batch Number\""
+    },
+    {
+      "type": "sql",
+      "id": "clinicalSpecs",
+      "description": "Select for Clinical Acceptance Criteria",
+      "sqlStatement": "SELECT DISTINCT \"Analytical Procedure\", \"Quality Attribute\", \"Acceptance Criteria\"\r\nFROM MIPRANS_OWNER.DELL_CQA_BA\r\nWHERE \"Product\" = ? AND \"Batch Number\" IN (?)\r\nORDER BY \"Analytical Procedure\", \"Quality Attribute\", \"Acceptance Criteria\""
+    },
+    {
+      "type": "sql",
+      "id": "pivotColumnNames",
+      "description": "Select for List of Analytical Procedure, Quality Attribute GroupBy keys",
+      "sqlStatement": "SELECT DISTINCT \"Analytical Procedure\", \"Quality Attribute\"\r\nFROM MIPRANS_OWNER.DELL_CQA_BA\r\nWHERE \"Product\" = ? AND \"Batch Number\" IN (?)\r\nORDER BY \"Analytical Procedure\", \"Quality Attribute\""
+    },
+    {
+      "type": "list",
+      "id": "filteredPivotColumnNames",
+      "description": "Author is provided list from query, then specifies attributes per item",
+      "source": {
+        "type": "sql",
+        "id": "pivotColumnNames",
+        "indices": "0,1"
+      },
+      "attributes": [
+        {
+          "name": "suppressIfNoData",
+          "type": "boolean"
+        }
+      ]
+    }
+  ],
+  "cellMergeRanges": [
+    {
+      "type": "namedRange",
+      "name": "pivotColumnNamesRows"
+    },
+    {
+      "type": "namedRange",
+      "name": "groupByColumns"
+    }
+  ],
+  "globalStringReplacements": [
+    {
+      "searchFor": "+/-",
+      "replaceWith": "ZZZZZZ"
+    }
+  ],
+  "rowSets": [
+    {
+      "active": true,
+      "location": "header",
+      "rowType": "pivot-column-names",
+      "source": {
+        "type": "list",
+        "id": "filteredPivotColumnNames",
+        "field": "Analytical Procedure",
+        "index": 0
+      },
+      "groupByColumnLabel": "Analytical Procedure",
+      "groupBy": [
+        {
+          "type": "text",
+          "value": "Analytical Procedure"
+        }
+      ]
+    },
+    {
+      "active": true,
+      "location": "header",
+      "rowType": "pivot-column-names",
+      "source": {
+        "type": "list",
+        "id": "filteredPivotColumnNames",
+        "field": "Quality Attribute",
+        "index": 1
+      },
+      "appendToValue": [
+        {
+          "type": "text",
+          "value": "("
+        },
+        {
+          "type": "sql",
+          "id": "main",
+          "field": "Acceptance Criteria"
+        },
+        {
+          "type": "text",
+          "value": ")"
+        }
+      ],
+      "groupByColumnLabel": "Quality Attribute",
+      "groupBy": [
+        {
+          "type": "text",
+          "value": "Quality Attribute"
+        }
+      ]
+    },
+    {
+      "active": true,
+      "location": "header",
+      "rowType": "pivot-data",
+      "source": {
+        "type": "sql",
+        "id": "clinicalSpecs",
+        "field": "Spec Description"
+      },
+      "columnFilter": {
+        "type": "list",
+        "id": "filteredPivotColumnNames"
+      },
+      "appendToValue": [
+        {
+          "type": "text",
+          "value": "("
+        },
+        {
+          "type": "sql",
+          "field": "Spec Units"
+        },
+        {
+          "type": "text",
+          "value": ")"
+        }
+      ],
+      "groupByColumnLabel": "Clinical Acceptance Criteria",
+      "groupBy": [
+        {
+          "type": "text",
+          "value": "Clinical Acceptance Criteria"
+        }
+      ]
+    },
+    {
+      "active": true,
+      "location": "body",
+      "rowType": "pivot-data",
+      "source": {
+        "type": "sql",
+        "id": "main",
+        "field": "Text Parameter Value"
+      },
+      "stringReplacements": [
+        {
+          "searchFor": "21\\.3",
+          "replaceWith": "1111111111"
+        }
+      ],
+      "decimalFormat": "00.0",
+      "groupBy": [
+        {
+          "type": "text",
+          "value": "Lot Number"
+        },
+        {
+          "type": "sql",
+          "id": "main",
+          "field": "Batch Number",
+          "stringReplacements": [
+            {
+              "searchFor": "1",
+              "replaceWith": "A"
+            }
+          ],
+          "decimalFormat": "00.0"
+        },
+        {
+          "type": "text",
+          "value": "Results"
+        }
+      ]
+    }
+  ]
+}
