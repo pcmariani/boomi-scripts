@@ -1,0 +1,441 @@
+<div class="footnote-table-table">
+  <html>
+    <body>
+      <tablegroup reference="a73cbf439f7a74de695595d52997c3b371" id="a73cbf439f7a74de695595d52997c3b371">
+        <h3 tableheader="yes">Table 3.2.P.8.3-1 - Summary Table of Drug Product Thermal Cycling Studies</h3>
+        <table border="1" id="3.2.P.8.3-1" parent_tablegroup="a73cbf439f7a74de695595d52997c3b371" seq="1">
+          <tr>
+            <th id="COLHDR_a73cbf439f7a74de695595d52997c3b37_Summary_Lot_Number" class="">Lot Number</th>
+            <th id="COLHDR_a73cbf439f7a74de695595d52997c3b37_Summary_Storage_Condition" class="">Storage Condition</th>
+            <th id="COLHDR_a73cbf439f7a74de695595d52997c3b37_Summary_Stability_Data_Start" class="">Stability Data Start</th>
+            <th id="COLHDR_a73cbf439f7a74de695595d52997c3b37_Summary_Stability_Data_Presented" class="">Stability Data Presented</th>
+            <th id="COLHDR_a73cbf439f7a74de695595d52997c3b37_Summary_Data_Table_Location" class="">Data Table Location</th>
+          </tr>
+          <tr>
+            <td id="ROW_a73cbf439f7a74de695595d52997c3b37_Summary_FR5790_Lot_Number" class="">FR5790</td>
+            <td id="ROW_a73cbf439f7a74de695595d52997c3b37_Summary_FR5790_Storage_Condition" class="">Thermal Cycle 1</td>
+            <td id="ROW_a73cbf439f7a74de695595d52997c3b37_Summary_FR5790_Stability_Data_Start" class="">Jan 2022</td>
+            <td id="ROW_a73cbf439f7a74de695595d52997c3b37_Summary_FR5790_Stability_Data_Presented" class="">6 Months</td>
+            <td link="a73cbf439f7a74de695595d52997c3b372" id="ROW_a73cbf439f7a74de695595d52997c3b37_Summary_FR5790_Data_Table_Location" class="">3.2.P.8.3-2</td>
+          </tr>
+          <tr>
+            <td id="ROW_a73cbf439f7a74de695595d52997c3b37_Summary_FR5790_Lot_Number" class="">FR5790</td>
+            <td id="ROW_a73cbf439f7a74de695595d52997c3b37_Summary_FR5790_Storage_Condition" class="">Thermal Cycle 2</td>
+            <td id="ROW_a73cbf439f7a74de695595d52997c3b37_Summary_FR5790_Stability_Data_Start" class="">Jan 2022</td>
+            <td id="ROW_a73cbf439f7a74de695595d52997c3b37_Summary_FR5790_Stability_Data_Presented" class="">6 Months</td>
+            <td link="a73cbf439f7a74de695595d52997c3b373" id="ROW_a73cbf439f7a74de695595d52997c3b37_Summary_FR5790_Data_Table_Location" class="">3.2.P.8.3-3</td>
+          </tr>
+        </table>
+      </tablegroup>
+    </body>
+  </html>
+</div>
+<div class="footnote-table-list">
+  <ul>
+    <li seq="1">a: new1</li>
+    <li seq="2">b: new2</li>
+    <li seq="3">c: new3</li>
+  </ul>
+</div>
+<div class="footnote-table-footer-row">
+  <p></p>
+</div>
+<div class="footnote-table-table">
+  <html>
+    <body>
+      <tablegroup reference="a73cbf439f7a74de695595d52997c3b372" id="a73cbf439f7a74de695595d52997c3b372">
+        <h3 tableheader="yes">Table 3.2.P.8.3-2 - FR5790</h3>
+        <table border="1" pagebreak="true" width="100%" id="3.2.P.8.3-2_1" parent_tablegroup="a73cbf439f7a74de695595d52997c3b372" seq="1">
+          <tr>
+            <th rowspan="2" style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay__TimeMonths" class="">Time (Months)</th>
+            <th colspan="3" style="width:24%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay_Appearance_VisibleParticulates" class="">Appearance</th>
+            <th rowspan="2" style="width:4%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay__pH" class="">pH</th>
+            <th rowspan="2" style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay__SubvisibleParticles≥10µm" class="">Subvisible Particles ≥ 10µm</th>
+            <th rowspan="2" style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay__SubvisibleParticles≥25µm" class="">Subvisible Particles ≥ 25µm</th>
+            <th style="width:12%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay_UVSpectroscopy_Concentrationmg/mL" class="">UV Spectroscopy</th>
+            <th rowspan="2" style="width:4%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay__PS80mg/mL" class="">PS80 (mg / mL)</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay_Cell-basedBioassay_RelativePotency%" class="">Cell-based Bioassay</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay_BindingELISA_RelativePotency%" class="">Binding ELISA</th>
+            <th colspan="3" style="width:16%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay_iCE_AcidicSpecies%" class="">iCE</th>
+          </tr>
+          <tr>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_VisibleParticulates" class="">Visible Particulates</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_Clarity" class="">Clarity</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_Coloration" class="">Coloration</th>
+            <th style="width:12%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_Concentrationmg/mL" class="">Concentration (mg / mL)</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_RelativePotency%" class="">Relative Potency (%)</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_RelativePotency%" class="">Relative Potency (%)</th>
+            <th style="width:5%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_AcidicSpecies%" class="">Acidic Species (%)</th>
+            <th style="width:5%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_MainSpecies%" class="">Main Species (%)</th>
+            <th style="width:6%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_BasicSpecies%" class="">Basic Species (%)</th>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_0_Time (Months)_0" class="">0</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Visible Particulates_0_Visible Particulates_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Clarity_0_Clarity_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Coloration_0_Coloration_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_pH_0_pH_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 10µm_0_Subvisible Particles ≥ 10µm_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 25µm_0_Subvisible Particles ≥ 25µm_NT" class="">NT</td>
+            <td style="width:12%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Protein Concentration_0_Concentration (mg / mL)_40.4" class="">40.4</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Polysorbate 80 Concentration_0_PS80 (mg / mL)_0.190" class="">0.190</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_0_Relative Potency (%)_89" class="">89</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_0_Relative Potency (%)_100" class="">100</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Acidic Species_0_Acidic Species (%)_45.3" class="">45.3</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Main Species_0_Main Species (%)_40.9" class="">40.9</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Basic Species_0_Basic Species (%)_13.8" class="">13.8</td>
+          </tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_.2_Time (Months)_Cycle1" class="">Cycle 1</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Visible Particulates_.2_Visible Particulates_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Clarity_.2_Clarity_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Coloration_.2_Coloration_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_pH_.2_pH_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 10µm_.2_Subvisible Particles ≥ 10µm_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 25µm_.2_Subvisible Particles ≥ 25µm_NT" class="">NT</td>
+            <td style="width:12%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Protein Concentration_.2_Concentration (mg / mL)_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Polysorbate 80 Concentration_.2_PS80 (mg / mL)_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_.2_Relative Potency (%)_93" class="">93</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_.2_Relative Potency (%)_97" class="">97</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Acidic Species_.2_Acidic Species (%)_45.4" class="">45.4</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Main Species_.2_Main Species (%)_40.8" class="">40.8</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Basic Species_.2_Basic Species (%)_13.8" class="">13.8</td>
+          </tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_.5_Time (Months)_Cycle2" class="">Cycle 2</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Visible Particulates_.5_Visible Particulates_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Clarity_.5_Clarity_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Coloration_.5_Coloration_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_pH_.5_pH_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 10µm_.5_Subvisible Particles ≥ 10µm_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 25µm_.5_Subvisible Particles ≥ 25µm_NT" class="">NT</td>
+            <td style="width:12%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Protein Concentration_.5_Concentration (mg / mL)_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Polysorbate 80 Concentration_.5_PS80 (mg / mL)_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_.5_Relative Potency (%)_92" class="">92</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_.5_Relative Potency (%)_98" class="">98</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Acidic Species_.5_Acidic Species (%)_45.4" class="">45.4</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Main Species_.5_Main Species (%)_40.7" class="">40.7</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Basic Species_.5_Basic Species (%)_13.9" class="">13.9</td>
+          </tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_.7_Time (Months)_Cycle3" class="">Cycle 3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Visible Particulates_.7_Visible Particulates_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Clarity_.7_Clarity_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Coloration_.7_Coloration_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_pH_.7_pH_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 10µm_.7_Subvisible Particles ≥ 10µm_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 25µm_.7_Subvisible Particles ≥ 25µm_NT" class="">NT</td>
+            <td style="width:12%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Protein Concentration_.7_Concentration (mg / mL)_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Polysorbate 80 Concentration_.7_PS80 (mg / mL)_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_.7_Relative Potency (%)_88" class="">88</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_.7_Relative Potency (%)_93" class="">93</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Acidic Species_.7_Acidic Species (%)_45.9" class="">45.9</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Main Species_.7_Main Species (%)_40.2" class="">40.2</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Basic Species_.7_Basic Species (%)_13.9" class="">13.9</td>
+          </tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_6_Time (Months)_6" class="">6</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Visible Particulates_6_Visible Particulates_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Clarity_6_Clarity_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Coloration_6_Coloration_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_pH_6_pH_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 10µm_6_Subvisible Particles ≥ 10µm_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 25µm_6_Subvisible Particles ≥ 25µm_NT" class="">NT</td>
+            <td style="width:12%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Protein Concentration_6_Concentration (mg / mL)_NT" class="">NTÂ <sup>b</sup>
+            </td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Polysorbate 80 Concentration_6_PS80 (mg / mL)_0.190" class="">0.190</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_6_Relative Potency (%)_97" class="">97</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_6_Relative Potency (%)_98" class="">98</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Acidic Species_6_Acidic Species (%)_47.2" class="">47.2</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Main Species_6_Main Species (%)_38.2" class="">38.2</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Basic Species_6_Basic Species (%)_14.6" class="">14.6</td>
+          </tr>
+        </table>
+        <table border="1" pagebreak="false" width="100%" id="3.2.P.8.3-2_2" parent_tablegroup="a73cbf439f7a74de695595d52997c3b372" seq="2">
+          <tr>
+            <th rowspan="2" style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay__TimeMonths" class="">Time (Months)</th>
+            <th colspan="2" style="width:14%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay_SE-HPLC_Monomer%" class="">SE-HPLC</th>
+            <th colspan="2" style="width:15%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay_CGEreducing_HC+LC%" class="">CGE (reducing)</th>
+            <th colspan="2" style="width:13%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay_CGEnon-reducing_IntactIgG%" class="">CGE (non-reducing)</th>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay_AEX-HPLC_Anti-CD3mAb%" class="">AEX-HPLC</th>
+            <th colspan="2" style="width:13%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay_CEX-HPLC_Anti-BCMAmAb%" class="">CEX-HPLC</th>
+            <th rowspan="2" style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay__Endotoxin" class="">Endotoxin</th>
+            <th rowspan="2" style="width:6%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay__Sterility" class="">Sterility</th>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay_CCIT_DyeIngress" class="">CCIT</th>
+            <th rowspan="2" style="width:9%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay__MethionineOxidation%" class="">Methionine Oxidation (%)</th>
+          </tr>
+          <tr>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_Monomer%" class="">Monomer (%)</th>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_HMMS%" class="">HMMS (%)</th>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_HC+LC%" class="">HC + LC (%)</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_Fragments%" class="">Fragments (%)</th>
+            <th style="width:5%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_IntactIgG%" class="">Intact IgG (%)</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_Fragments%" class="">Fragments (%)</th>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_Anti-CD3mAb%" class="">Anti-CD3 mAb (%)</th>
+            <th style="width:5%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_Anti-BCMAmAb%" class="">Anti-BCMA mAb (%)</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_Anti-BCMA/anti-CD3BispecificClip%" class="">Anti-BCMA/anti-CD3 Bispecific Clip (%)</th>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_DyeIngress" class="">Dye Ingress</th>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_0_Time (Months)_0" class="">0</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Monomer_0_Monomer (%)_99.8" class="">99.8</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_HMMS_0_HMMS (%)_0.2" class="">0.2</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Heavy Chain + Light Chain_0_HC + LC (%)_99.3" class="">99.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_0_Fragments (%)_0.7" class="">0.7Â <sup>b</sup>
+            </td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Intact IgG_0_Intact IgG (%)_100.0" class="">100.0</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_0_Fragments (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-CD3 mAb_0_Anti-CD3 mAb (%)_NMT0.1" class="">NMT 0.1</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA mAb_0_Anti-BCMA mAb (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA/Anti-CD3 Bispecific Clip_0_Anti-BCMA/anti-CD3 Bispecific Clip (%)_1.1" class="">1.1</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Endotoxin_0_Endotoxin_NT" class="">NT</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Sterility_0_Sterility_NT" class="">NT</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Dye Ingress_0_Dye Ingress_NT" class="">NT</td>
+            <td style="width:9%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Methionine Oxidation_0_Methionine Oxidation (%)_1.7" class="">1.7</td>
+          </tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_.2_Time (Months)_Cycle1" class="">Cycle 1</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Monomer_.2_Monomer (%)_99.8" class="">99.8</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_HMMS_.2_HMMS (%)_NMT0.2" class="">NMT 0.2</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Heavy Chain + Light Chain_.2_HC + LC (%)_99.0" class="">99.0</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_.2_Fragments (%)_0.7" class="">0.7</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Intact IgG_.2_Intact IgG (%)_99.7" class="">99.7</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_.2_Fragments (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-CD3 mAb_.2_Anti-CD3 mAb (%)_NMT0.1" class="">NMT 0.1</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA mAb_.2_Anti-BCMA mAb (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA/Anti-CD3 Bispecific Clip_.2_Anti-BCMA/anti-CD3 Bispecific Clip (%)_0.8" class="">0.8</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Endotoxin_.2_Endotoxin_NT" class="">NT</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Sterility_.2_Sterility_NT" class="">NT</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Dye Ingress_.2_Dye Ingress_NT" class="">NT</td>
+            <td style="width:9%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Methionine Oxidation_.2_Methionine Oxidation (%)_2.1" class="">2.1</td>
+          </tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_.5_Time (Months)_Cycle2" class="">Cycle 2</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Monomer_.5_Monomer (%)_99.8" class="">99.8</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_HMMS_.5_HMMS (%)_NMT0.2" class="">NMT 0.2</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Heavy Chain + Light Chain_.5_HC + LC (%)_99.3" class="">99.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_.5_Fragments (%)_0.7" class="">0.7</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Intact IgG_.5_Intact IgG (%)_100.0" class="">100.0</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_.5_Fragments (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-CD3 mAb_.5_Anti-CD3 mAb (%)_NMT0.1" class="">NMT 0.1</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA mAb_.5_Anti-BCMA mAb (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA/Anti-CD3 Bispecific Clip_.5_Anti-BCMA/anti-CD3 Bispecific Clip (%)_0.8" class="">0.8</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Endotoxin_.5_Endotoxin_NT" class="">NT</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Sterility_.5_Sterility_NT" class="">NT</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Dye Ingress_.5_Dye Ingress_NT" class="">NT</td>
+            <td style="width:9%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Methionine Oxidation_.5_Methionine Oxidation (%)_2.0" class="">2.0</td>
+          </tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_.7_Time (Months)_Cycle3" class="">Cycle 3</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Monomer_.7_Monomer (%)_99.8" class="">99.8</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_HMMS_.7_HMMS (%)_NMT0.2" class="">NMT 0.2</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Heavy Chain + Light Chain_.7_HC + LC (%)_99.3" class="">99.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_.7_Fragments (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Intact IgG_.7_Intact IgG (%)_99.7" class="">99.7</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_.7_Fragments (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-CD3 mAb_.7_Anti-CD3 mAb (%)_NMT0.1" class="">NMT 0.1</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA mAb_.7_Anti-BCMA mAb (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA/Anti-CD3 Bispecific Clip_.7_Anti-BCMA/anti-CD3 Bispecific Clip (%)_0.9" class="">0.9</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Endotoxin_.7_Endotoxin_NT" class="">NT</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Sterility_.7_Sterility_NT" class="">NT</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Dye Ingress_.7_Dye Ingress_NT" class="">NT</td>
+            <td style="width:9%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Methionine Oxidation_.7_Methionine Oxidation (%)_2.4" class="">2.4</td>
+          </tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_6_Time (Months)_6" class="">6</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Monomer_6_Monomer (%)_99.7" class="">99.7</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_HMMS_6_HMMS (%)_NMT0.2" class="">NMT 0.2</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Heavy Chain + Light Chain_6_HC + LC (%)_99.2" class="">99.2</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_6_Fragments (%)_0.8" class="">0.8</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Intact IgG_6_Intact IgG (%)_99.7" class="">99.7</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_6_Fragments (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-CD3 mAb_6_Anti-CD3 mAb (%)_NMT0.1" class="">NMT 0.1</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA mAb_6_Anti-BCMA mAb (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA/Anti-CD3 Bispecific Clip_6_Anti-BCMA/anti-CD3 Bispecific Clip (%)_0.7" class="">0.7</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Endotoxin_6_Endotoxin_NT" class="">NT</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Sterility_6_Sterility_NT" class="">NT</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Dye Ingress_6_Dye Ingress_NT" class="">NT</td>
+            <td style="width:9%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Methionine Oxidation_6_Methionine Oxidation (%)_2.1" class="">2.1</td>
+          </tr>
+        </table>
+      </tablegroup>
+    </body>
+  </html>
+</div>
+<div class="footnote-table-list">
+  <ul>
+    <li seq="1">a: othernew1</li>
+    <li seq="2">b: othernew2</li>
+    <li seq="3">c: othernew3</li>
+  </ul>
+</div>
+<div class="footnote-table-footer-row">Footnote to first data table<p></p>
+</div>
+<div class="footnote-table-table">
+  <html>
+    <body>
+      <tablegroup reference="a73cbf439f7a74de695595d52997c3b373" id="a73cbf439f7a74de695595d52997c3b373">
+        <h3 tableheader="yes">Table 3.2.P.8.3-3 - FR5790</h3>
+        <table border="1" pagebreak="true" width="100%" id="3.2.P.8.3-3_1" parent_tablegroup="a73cbf439f7a74de695595d52997c3b373" seq="1">
+          <tr>
+            <th rowspan="2" style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay__TimeMonths" class="">Time (Months)</th>
+            <th colspan="3" style="width:24%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay_Appearance_VisibleParticulates" class="">Appearance</th>
+            <th rowspan="2" style="width:4%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay__pH" class="">pH</th>
+            <th rowspan="2" style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay__SubvisibleParticles≥10µm" class="">Subvisible Particles ≥ 10µm</th>
+            <th rowspan="2" style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay__SubvisibleParticles≥25µm" class="">Subvisible Particles ≥ 25µm</th>
+            <th style="width:12%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay_UVSpectroscopy_Concentrationmg/mL" class="">UV Spectroscopy</th>
+            <th rowspan="2" style="width:4%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay__PS80mg/mL" class="">PS80 (mg / mL)</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay_Cell-basedBioassay_RelativePotency%" class="">Cell-based Bioassay</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay_BindingELISA_RelativePotency%" class="">Binding ELISA</th>
+            <th colspan="3" style="width:16%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Assay_iCE_AcidicSpecies%" class="">iCE</th>
+          </tr>
+          <tr>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_VisibleParticulates" class="">Visible Particulates</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_Clarity" class="">Clarity</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_Coloration" class="">Coloration</th>
+            <th style="width:12%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_Concentrationmg/mL" class="">Concentration (mg / mL)</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_RelativePotency%" class="">Relative Potency (%)</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_RelativePotency%" class="">Relative Potency (%)</th>
+            <th style="width:5%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_AcidicSpecies%" class="">Acidic Species (%)</th>
+            <th style="width:5%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_MainSpecies%" class="">Main Species (%)</th>
+            <th style="width:6%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_1_FR5790_Parameter_BasicSpecies%" class="">Basic Species (%)</th>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_0_Time (Months)_0" class="">0</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Visible Particulates_0_Visible Particulates_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Clarity_0_Clarity_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Coloration_0_Coloration_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_pH_0_pH_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 10µm_0_Subvisible Particles ≥ 10µm_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 25µm_0_Subvisible Particles ≥ 25µm_NT" class="">NT</td>
+            <td style="width:12%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Protein Concentration_0_Concentration (mg / mL)_40.4" class="">40.4</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Polysorbate 80 Concentration_0_PS80 (mg / mL)_0.190" class="">0.190</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_0_Relative Potency (%)_89" class="">89</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_0_Relative Potency (%)_100" class="">100</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Acidic Species_0_Acidic Species (%)_45.3" class="">45.3</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Main Species_0_Main Species (%)_40.9" class="">40.9</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Basic Species_0_Basic Species (%)_13.8" class="">13.8</td>
+          </tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_1_Time (Months)_1" class="">1</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Visible Particulates_1_Visible Particulates_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Clarity_1_Clarity_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Coloration_1_Coloration_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_pH_1_pH_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 10µm_1_Subvisible Particles ≥ 10µm_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 25µm_1_Subvisible Particles ≥ 25µm_NT" class="">NT</td>
+            <td style="width:12%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Protein Concentration_1_Concentration (mg / mL)_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Polysorbate 80 Concentration_1_PS80 (mg / mL)_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_1_Relative Potency (%)_92" class="">92</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_1_Relative Potency (%)_105" class="">105</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Acidic Species_1_Acidic Species (%)_45.8" class="">45.8</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Main Species_1_Main Species (%)_39.7" class="">39.7</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Basic Species_1_Basic Species (%)_14.5" class="">14.5</td>
+          </tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_6_Time (Months)_6" class="">6</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Visible Particulates_6_Visible Particulates_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Clarity_6_Clarity_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Coloration_6_Coloration_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_pH_6_pH_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 10µm_6_Subvisible Particles ≥ 10µm_NT" class="">NT</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Subvisible Particles ≥ 25µm_6_Subvisible Particles ≥ 25µm_NT" class="">NT</td>
+            <td style="width:12%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Protein Concentration_6_Concentration (mg / mL)_NT" class="">NT</td>
+            <td style="width:4%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Polysorbate 80 Concentration_6_PS80 (mg / mL)_0.190" class="">0.190</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_6_Relative Potency (%)_84" class="">84</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Relative Potency_6_Relative Potency (%)_108" class="">108</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Acidic Species_6_Acidic Species (%)_48.0" class="">48.0</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Main Species_6_Main Species (%)_37.7" class="">37.7</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Basic Species_6_Basic Species (%)_14.2" class="">14.2</td>
+          </tr>
+        </table>
+        <table border="1" pagebreak="false" width="100%" id="3.2.P.8.3-3_2" parent_tablegroup="a73cbf439f7a74de695595d52997c3b373" seq="2">
+          <tr>
+            <th rowspan="2" style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay__TimeMonths" class="">Time (Months)</th>
+            <th colspan="2" style="width:14%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay_SE-HPLC_Monomer%" class="">SE-HPLC</th>
+            <th colspan="2" style="width:15%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay_CGEreducing_HC+LC%" class="">CGE (reducing)</th>
+            <th colspan="2" style="width:13%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay_CGEnon-reducing_IntactIgG%" class="">CGE (non-reducing)</th>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay_AEX-HPLC_Anti-CD3mAb%" class="">AEX-HPLC</th>
+            <th colspan="2" style="width:13%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay_CEX-HPLC_Anti-BCMAmAb%" class="">CEX-HPLC</th>
+            <th rowspan="2" style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay__Endotoxin" class="">Endotoxin</th>
+            <th rowspan="2" style="width:6%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay__Sterility" class="">Sterility</th>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay_CCIT_DyeIngress" class="">CCIT</th>
+            <th rowspan="2" style="width:9%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Assay__MethionineOxidation%" class="">Methionine Oxidation (%)</th>
+          </tr>
+          <tr>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_Monomer%" class="">Monomer (%)</th>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_HMMS%" class="">HMMS (%)</th>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_HC+LC%" class="">HC + LC (%)</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_Fragments%" class="">Fragments (%)</th>
+            <th style="width:5%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_IntactIgG%" class="">Intact IgG (%)</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_Fragments%" class="">Fragments (%)</th>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_Anti-CD3mAb%" class="">Anti-CD3 mAb (%)</th>
+            <th style="width:5%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_Anti-BCMAmAb%" class="">Anti-BCMA mAb (%)</th>
+            <th style="width:8%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_Anti-BCMA/anti-CD3BispecificClip%" class="">Anti-BCMA/anti-CD3 Bispecific Clip (%)</th>
+            <th style="width:7%" id="COLHDR_a73cbf439f7a74de695595d52997c3b37_2_FR5790_Parameter_DyeIngress" class="">Dye Ingress</th>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_0_Time (Months)_0" class="">0</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Monomer_0_Monomer (%)_99.8" class="">99.8</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_HMMS_0_HMMS (%)_0.2" class="">0.2</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Heavy Chain + Light Chain_0_HC + LC (%)_99.3" class="">99.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_0_Fragments (%)_0.7" class="">0.7</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Intact IgG_0_Intact IgG (%)_100.0" class="">100.0</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_0_Fragments (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-CD3 mAb_0_Anti-CD3 mAb (%)_NMT0.1" class="">NMT 0.1</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA mAb_0_Anti-BCMA mAb (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA/Anti-CD3 Bispecific Clip_0_Anti-BCMA/anti-CD3 Bispecific Clip (%)_1.1" class="">1.1</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Endotoxin_0_Endotoxin_NT" class="">NT</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Sterility_0_Sterility_NT" class="">NT</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Dye Ingress_0_Dye Ingress_NT" class="">NT</td>
+            <td style="width:9%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Methionine Oxidation_0_Methionine Oxidation (%)_1.7" class="">1.7</td>
+          </tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_1_Time (Months)_1" class="">1</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Monomer_1_Monomer (%)_99.7" class="">99.7</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_HMMS_1_HMMS (%)_NMT0.2" class="">NMT 0.2Â <sup>a</sup>
+            </td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Heavy Chain + Light Chain_1_HC + LC (%)_99.3" class="">99.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_1_Fragments (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Intact IgG_1_Intact IgG (%)_99.4" class="">99.4</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_1_Fragments (%)_0.6" class="">0.6</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-CD3 mAb_1_Anti-CD3 mAb (%)_0.2" class="">0.2</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA mAb_1_Anti-BCMA mAb (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA/Anti-CD3 Bispecific Clip_1_Anti-BCMA/anti-CD3 Bispecific Clip (%)_0.9" class="">0.9</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Endotoxin_1_Endotoxin_NT" class="">NT</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Sterility_1_Sterility_NT" class="">NT</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Dye Ingress_1_Dye Ingress_NT" class="">NT</td>
+            <td style="width:9%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Methionine Oxidation_1_Methionine Oxidation (%)_2.5" class="">2.5</td>
+          </tr>
+          <tr>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_GroupByValue_6_Time (Months)_6" class="">6</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Monomer_6_Monomer (%)_99.6" class="">99.6</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_HMMS_6_HMMS (%)_0.3" class="">0.3</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Heavy Chain + Light Chain_6_HC + LC (%)_98.9" class="">98.9</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_6_Fragments (%)_1.1" class="">1.1</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Intact IgG_6_Intact IgG (%)_99.5" class="">99.5</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Fragments_6_Fragments (%)_0.5" class="">0.5</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-CD3 mAb_6_Anti-CD3 mAb (%)_NMT0.1" class="">NMT 0.1</td>
+            <td style="width:5%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA mAb_6_Anti-BCMA mAb (%)_NMT0.3" class="">NMT 0.3</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Anti-BCMA/Anti-CD3 Bispecific Clip_6_Anti-BCMA/anti-CD3 Bispecific Clip (%)_0.8" class="">0.8</td>
+            <td style="width:8%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Endotoxin_6_Endotoxin_NT" class="">NT</td>
+            <td style="width:6%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Sterility_6_Sterility_NT" class="">NT</td>
+            <td style="width:7%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Dye Ingress_6_Dye Ingress_NT" class="">NT</td>
+            <td style="width:9%" id="ROW_a73cbf439f7a74de695595d52997c3b37_FR5790_Methionine Oxidation_6_Methionine Oxidation (%)_2.4" class="">2.4</td>
+          </tr>
+        </table>
+      </tablegroup>
+    </body>
+  </html>
+</div>
+<div class="footnote-table-list">
+  <ul>
+    <li seq="1">a: first note</li>
+  </ul>
+</div>
+<div class="footnote-table-footer-row">footnote for second table with change<p></p>
+</div>

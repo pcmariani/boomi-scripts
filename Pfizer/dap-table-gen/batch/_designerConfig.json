@@ -1,0 +1,107 @@
+{
+  "queryId": "DP_BATCHANALYSIS",
+  "tableStructureType": "pivot",
+  "pivotTopLeftCorner": "groupBy-column-labels",
+  "sources": [
+    {
+      "type": "sql",
+      "id": "main",
+      "description": "Main Select for Batch Analysis Data",
+      "sqlStatement": "SELECT \"Batch Number\", \"Material Number\", \"Acceptance Criteria\", \"Analytical Procedure\", \"Quality Attribute\", \"Text Parameter Value\"\r\nFROM MIPRANS_OWNER.DELL_CQA_BA\r\nWHERE \"Product\" = ? AND \"Batch Number\" IN (?)\r\nORDER BY \"Batch Number\""
+    },
+    {
+      "type": "sql",
+      "id": "clinicalSpecs",
+      "description": "Select for Clinical Acceptance Criteria",
+      "sqlStatement": "SELECT DISTINCT \"Analytical Procedure\", \"Quality Attribute\", \"Acceptance Criteria\"\r\nFROM MIPRANS_OWNER.DELL_CQA_BA\r\nWHERE \"Product\" = ? AND \"Batch Number\" IN (?)\r\nORDER BY \"Analytical Procedure\", \"Quality Attribute\", \"Acceptance Criteria\""
+    },
+    {
+      "type": "sql",
+      "id": "groupByRowNames",
+      "description": "Select for List of Analytical Procedure, Quality Attribute GroupBy keys",
+      "sqlStatement": "SELECT DISTINCT \"Analytical Procedure\", \"Quality Attribute\"\r\nFROM MIPRANS_OWNER.DELL_CQA_BA\r\nWHERE \"Product\" = ? AND \"Batch Number\" IN (?)\r\nORDER BY \"Analytical Procedure\", \"Quality Attribute\""
+    },
+    {
+      "type": "list",
+      "id": "filteredGroupByNames",
+      "description": "Author is provided list from query, then specifies attributes per item",
+      "source": {
+        "type": "sql",
+        "id": "groupByRowNames",
+        "indices": "0,1"
+      },
+      "attributes": [
+        {
+          "name": "suppressIfNoData",
+          "type": "boolean"
+        }
+      ]
+    }
+  ],
+  "rowSets": [
+    {
+      "active": true,
+      "location": "header",
+      "rowType": "separator",
+      "value": "Lot number",
+      "numColumns": {
+        "type": "sql",
+        "id": "main"
+      }
+    },
+    {
+      "active": true,
+      "location": "header",
+      "rowType": "pivot-column-names",
+      "source": {
+        "type": "pivot-result-header-row",
+        "id": "main",
+        "field": "Batch Number"
+      }
+    },
+    {
+      "active": true,
+      "location": "header",
+      "rowType": "separator",
+      "value": "Results",
+      "numColumns": {
+        "type": "sql",
+        "id": "main"
+      }
+    },
+    {
+      "active": true,
+      "location": "body",
+      "rowType": "pivot-data",
+      "source": {
+        "type": "sql",
+        "id": "main",
+        "field": "Text Parameter Value"
+      },
+      "groupBy": [
+        {
+          "type": "list",
+          "id": "filteredgroupByRowNames",
+          "field": "Analytical Procedure",
+          "index": 0
+        },
+        {
+          "type": "list",
+          "id": "filteredgroupByRowNames",
+          "field": "Quality Attribute",
+          "index": 1
+        },
+        {
+          "type": "sql",
+          "id": "clinicalSpecs",
+          "rowFilter": {
+            "type": "list",
+            "id": "filteredgroupByRowNames"
+          },
+          "field": "Acceptance Criteria",
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

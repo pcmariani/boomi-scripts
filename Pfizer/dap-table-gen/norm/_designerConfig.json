@@ -1,0 +1,77 @@
+{
+  "queryId": "DS_TEST_NOPIVOT",
+  "tableStructureType": "normal",
+  "sources": [
+    {
+      "type": "sql",
+      "id": "main",
+      "description": "Main Select",
+      "sqlStatement": "SELECT \"DP Date of Manufacture\", \"DP Manufacturing Scale\", \"DP Site of Manufacture\", \"Dose Presentation\", \"Drug Product Lot Number\", \"Drug Product Lot Use\", \"Input DS Batch Number\"\r\nFROM MIPRANS_OWNER.DELL_GLBL_DP_GENE_32P23_NG\r\nWHERE \"Product\" = ?\r\nORDER BY  \"Drug Product Lot Number\""
+    }
+  ],
+  "globalStringReplacements": [
+    {
+      "searchFor": "\\|",
+      "replaceWith": "+++"
+    },
+    {
+      "searchFor": "kkkk",
+      "replaceWith": "RRR"
+    }
+
+  ],
+  "rowSets": [
+    {
+      "active": true,
+      "location": "header",
+      "rowType": "column-names",
+      "source": {
+        "type": "sql",
+        "id": "main"
+      }
+    },
+    {
+      "active": true,
+      "location": "body",
+      "rowType": "data",
+      "source": {
+        "type": "sql",
+        "id": "main"
+      },
+      "modifications": [
+        {
+          "field": "DP Date of Manufacture",
+          "stringReplacements": [
+            {
+              "searchFor": " 00:00:00",
+              "replaceWith": ""
+            },
+            {
+              "searchFor": "\\.0",
+              "replaceWith": "*"
+            }
+          ]
+        },
+        {
+          "field": "DP Site of Manufacture",
+          "stringReplacements": [
+            {
+              "searchFor": "Kalamzoo",
+              "replaceWith": "kkkkkk"
+            }
+          ]
+        },
+        {
+          "field": "DP Manufacturing Scale",
+          "decimalFormat": "00.00",
+          "stringReplacements": [
+            {
+              "searchFor": "\\.0",
+              "replaceWith": "*"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
